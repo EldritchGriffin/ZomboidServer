@@ -1,0 +1,11 @@
+VERSION = 1,
+
+mods
+{
+	mod = VanillaVehiclesAnimated,
+	mod = VVA_cullseats,
+}
+
+maps
+{
+}
