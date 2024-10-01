@@ -2318,3 +2318,21 @@ table.insert(log, {
 	{ type = "reg_obj", id = 44, obj = "WallCracks" }
 	{ type = "reg_obj", id = 45, obj = "Flowerbed" }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2024/10/01 15:31:17
+	{
+		type = "info",
+		timeStamp = "2024/10/01 15:31:17",
+		saveWorld = "ServerQuickieVanilla",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"SkillRecoveryJournal",
+		},
+	},
+	{ type = "reg_item", fulltype = "Base.SkillRecoveryBoundJournal", registeryID = 2259, existsVanilla = false, isModded = true, modID = "SkillRecoveryJournal", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.SkillRecoveryJournal", registeryID = 2260, existsVanilla = false, isModded = true, modID = "SkillRecoveryJournal", obsolete = false, removed = false, isLoaded = true }
+};

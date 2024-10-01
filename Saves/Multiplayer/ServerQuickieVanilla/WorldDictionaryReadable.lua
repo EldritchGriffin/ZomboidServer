@@ -20331,6 +20331,24 @@ items = {
 		obsolete = false,
 		removed = false,
 	},
+	{
+		registryID = 2259,
+		fulltype = "Base.SkillRecoveryBoundJournal",
+		modID = "SkillRecoveryJournal",
+		existsAsVanilla = false,
+		isModded = true,
+		obsolete = false,
+		removed = false,
+	},
+	{
+		registryID = 2260,
+		fulltype = "Base.SkillRecoveryJournal",
+		modID = "SkillRecoveryJournal",
+		existsAsVanilla = false,
+		isModded = true,
+		obsolete = false,
+		removed = false,
+	},
 }
 
 --[[ ---- OBJECTS ---- --]]

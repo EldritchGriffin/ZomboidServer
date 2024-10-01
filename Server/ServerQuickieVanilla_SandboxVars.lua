@@ -614,4 +614,31 @@ SandboxVars = {
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
     },
+    SkillRecoveryJournal = {
+        -- Minimum=1 Maximum=100 Default=100
+        RecoveryPercentage = 100,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        TranscribeSpeed = 100.0,
+        -- Minimum=0.00 Maximum=1000.00 Default=1.00
+        ReadTimeSpeed = 100.0,
+        RecoverProfessionAndTraitsBonuses = false,
+        TranscribeTVXP = false,
+        -- Minimum=-1 Maximum=100 Default=0
+        RecoverPassiveSkills = 0,
+        -- Minimum=-1 Maximum=100 Default=-1
+        RecoverCombatSkills = -1,
+        -- Minimum=-1 Maximum=100 Default=-1
+        RecoverFirearmSkills = -1,
+        -- Minimum=-1 Maximum=100 Default=-1
+        RecoverCraftingSkills = -1,
+        -- Minimum=-1 Maximum=100 Default=-1
+        RecoverSurvivalistSkills = -1,
+        -- Minimum=-1 Maximum=100 Default=-1
+        RecoverAgilitySkills = -1,
+        RecoverRecipes = true,
+        RecoveryJournalUsed = false,
+        Craftable = true,
+        -- Minimum=0 Maximum=100 Default=0
+        KillsTrack = 0,
+    },
 }

@@ -1,0 +1,14 @@
+VERSION = 1,
+
+mods
+{
+	mod = SkillRecoveryJournal,
+	mod = FRUsedCarsBeta,
+	mod = VanillaVehiclesAnimated,
+	mod = VVA_cullseats,
+	mod = ConditionOnDash,
+}
+
+maps
+{
+}
